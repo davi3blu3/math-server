@@ -1,0 +1,25 @@
+{
+  "name": "math-server",
+  "version": "1.0.0",
+  "description": "\"Mean app that records input math steps for teacher review\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi3blu3/math-server.git"
+  },
+  "author": "davi3blu3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davi3blu3/math-server/issues"
+  },
+  "homepage": "https://github.com/davi3blu3/math-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10"
+  }
+}
